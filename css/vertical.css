@@ -1,0 +1,27 @@
+nav {
+        background-color: #9823a5;
+        }
+        nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        }
+        nav li {
+        margin-right: 20px;
+        }
+        nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+        }
+        /* Hover effect */
+        nav a:hover {
+        background-color: #f0a139;
+        }
+        /* Active (current page) link */
+        nav a.active {
+        background-color: #ce36ad;  /* a green highlight */
+        font-weight: bold;          /* make it stand out */
+        }
